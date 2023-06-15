@@ -24,11 +24,11 @@ public class MadlibsOfTheAmazon {
 		// Hint:  You will need to add more + signs to join the variables to the other parts of the story.
 		
 		String story = 
-		"Piranhas are more " + " during the day, so cross the river at/n"  +
-		"night. Piranhas are attracted to fresh [**liquid**] and will most\n"  +
-		"likely take a bite out of your [**body**] if you [**verb**]. Whatever\n"  +
+		"Piranhas are more " + input + " during the day, so cross the river at\n"  +
+		"night. Piranhas are attracted to fresh " + liquid+" and will most\n"  +
+		"likely take a bite out of your " + body + " if you " + verb+". Whatever\n"  +
 		"you do, if you have an open wound, try to find another way to get\n"  +
-		"back to the [**place**]. Good luck!";
+		"back to the "+ place +". Good luck!";
 		
 		// Make a pop-up that contains the final story. The \n escape characters add line breaks to the story. 
 		// If you need to, move them around to make your story look better in the pop-up
